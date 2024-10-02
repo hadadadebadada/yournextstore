@@ -21,7 +21,7 @@ export function CategoryBox({
 			</div>
 			<div className="justify-end gap-2 px-4 py-2 text-neutral-600">
 				<h3 className="text-lg font-bold tracking-tight">{deslugify(categorySlug)}</h3>
-				<p>Shop now</p>
+				<p>Attest beantragen</p>
 			</div>
 		</YnsLink>
 	);

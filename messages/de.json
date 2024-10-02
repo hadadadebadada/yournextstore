@@ -1,7 +1,7 @@
 {
 	"Global": {
 		"metadata": {
-			"title": "Your Next Store - Demo",
+			"title": "Quicker Green",
 			"description": "Ein Next.js- Grundgerüst für den sofortigen Aufbau Ihres Online-Shops: einfach, schnell, leistungsstark."
 		},
 		"notFound": {
@@ -55,9 +55,9 @@
 	},
 	"/": {
 		"hero": {
-			"title": "Entdecke unsere kuratierte Kollektion",
-			"description": "Entdecke unsere sorgfältig ausgewählten Produkte für Dein Zuhause und Deinen Lifestyle.",
-			"action": "Jetzt einkaufen",
+			"title": "Werde zum Cannabnis Patient",
+			"description": "In weningen Minuten online Behandlung anfragen.",
+			"action": "Jetzt Behandlung anfragen",
 			"link": "/category/accessories"
 		}
 	},
@@ -67,7 +67,7 @@
 			"description": "Wir konnten keine passenden Produkte für Deine Suche finden. Überprüfe die Rechtschreibung oder verwende allgemeinere Begriffe."
 		},
 		"metadata": {
-			"title": "Suche: {query} · Your Next Store"
+			"title": "Suche: {query} · Quicker Green"
 		},
 		"page": {
 			"title": "Suche nach \"{query}\""
@@ -78,7 +78,7 @@
 	},
 	"/products": {
 		"metadata": {
-			"title": "Alle Produkte · Your Next Store"
+			"title": "Alle Produkte · Quicker Green"
 		},
 		"page": {
 			"title": "Alle Produkte"
@@ -86,7 +86,7 @@
 	},
 	"/product": {
 		"metadata": {
-			"title": "{productName} · Your Next Store"
+			"title": "{productName} · Quicker Green"
 		},
 		"page": {
 			"allProducts": "Alle Produkte",
@@ -97,7 +97,7 @@
 	},
 	"/category": {
 		"metadata": {
-			"title": "{categoryName} Kategorie · Your Next Store"
+			"title": "{categoryName} Kategorie · Quicker Green"
 		},
 		"page": {
 			"title": "Kategorie: {categoryName}"
@@ -113,7 +113,7 @@
 			"goToPaymentButton": "Weiter zur Bezahlung"
 		},
 		"metadata": {
-			"title": "Warenkorb · Your Next Store"
+			"title": "Warenkorb · Quicker Green"
 		},
 		"page": {
 			"title": "Dein Warenkorb",
@@ -161,7 +161,7 @@
 	},
 	"/order": {
 		"metadata": {
-			"title": "Bestellbestätigung · Your Next Store"
+			"title": "Bestellbestätigung · Quicker Green"
 		},
 		"page": {
 			"title": "Bestellbestätigung",

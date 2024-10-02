@@ -1,5 +1,7 @@
 import { publicUrl } from "@/env.mjs";
 import AccessoriesImage from "@/images/accessories.jpg";
+import AttestImage from "@/images/attest.jpg";
+
 import ApparelImage from "@/images/apparel.jpg";
 import { CategoryBox } from "@/ui/category-box";
 import { ProductList } from "@/ui/products/product-list";
@@ -40,7 +42,7 @@ export default async function Home() {
 						className="rounded"
 						height={450}
 						width={450}
-						src="https://files.stripe.com/links/MDB8YWNjdF8xT3BaeG5GSmNWbVh6bURsfGZsX3Rlc3RfaDVvWXowdU9ZbWlobUIyaHpNc1hCeDM200NBzvUjqP"
+						src={AttestImage} // Use the imported image here
 						style={{
 							objectFit: "cover",
 						}}
@@ -54,8 +56,8 @@ export default async function Home() {
 			<section className="w-full py-8">
 				<div className="grid gap-8 lg:grid-cols-2">
 					{[
-						{ categorySlug: "accessories", src: AccessoriesImage },
-						{ categorySlug: "apparel", src: ApparelImage },
+						{ categorySlug: "Gorilla Zkittlez", src: AccessoriesImage },
+						{ categorySlug: "Strawberry Banana Auto", src: ApparelImage },
 					].map(({ categorySlug, src }) => (
 						<CategoryBox key={categorySlug} categorySlug={categorySlug} src={src} />
 					))}

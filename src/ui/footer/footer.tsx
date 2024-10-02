@@ -8,11 +8,11 @@ const sections = [
 		header: "Products",
 		links: [
 			{
-				label: "Apparel",
+				label: "Goralla Zkittlez",
 				href: "/category/apparel",
 			},
 			{
-				label: "Accessories",
+				label: "Strawberry Banana Auto",
 				href: "/category/accessories",
 			},
 		],
