@@ -7,6 +7,8 @@ NextEnv.loadEnvConfig(".");
 
 const { env, publicUrl } = await import("@/env.mjs");
 
+console.log(`Public URL: ${publicUrl}`); // Example use case
+
 const datasetId = env.TRIEVE_DATASET_ID;
 const apiKey = env.TRIEVE_API_KEY;
 
