@@ -28,12 +28,12 @@ export default async function Home() {
 							{t("hero.title")}
 						</h2>
 						<p className="text-pretty text-neutral-600">{t("hero.description")}</p>
-						<YnsLink
+						<button
 							className="inline-flex h-10 items-center justify-center rounded-full bg-neutral-900 px-6 font-medium text-neutral-50 transition-colors hover:bg-neutral-900/90 focus:outline-none focus:ring-1 focus:ring-neutral-950"
-							href={t("hero.link")}
+							onClick={() => alert("Attest Fragebogen...")}
 						>
 							{t("hero.action")}
-						</YnsLink>
+						</button>
 					</div>
 					<Image
 						alt="Cup of Coffee"
