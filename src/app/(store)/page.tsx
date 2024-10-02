@@ -1,6 +1,6 @@
 import { publicUrl } from "@/env.mjs";
 import AccessoriesImage from "@/images/accessories.jpg";
-import AttestImage from "@/images/quicker_green.jpg";
+import AttestImage from "@/images/quicker_green.png";
 
 import ApparelImage from "@/images/apparel.jpg";
 import { CategoryBox } from "@/ui/category-box";
